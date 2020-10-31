@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+//COMPONENTS
+// import YoutubeForm2 from './components/YoutubeForm2';
+// import YoutubeForm3 from './components/YoutubeForm3';
+// import YoutubeForm4 from "./components/YoutubeForm4";
+// import YupUtubeForm from "./components/YupUtubeForm";
+// import ReducedYoutubeForm from "./components/ReducedYoutubeForm";
+// import ReducedForm1 from "./components/ReducedForm1";
+// import ReducedForm2 from "./components/ReducedForm2";
+// import ValidationForm from "./components/ValidationForm";
+
+//FORMIK CONTROLS
+import FormikContainer from "./formik_controls/FormikContainer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FormikContainer></FormikContainer>
     </div>
   );
 }
